@@ -11,7 +11,7 @@ resource "aws_instance" "indiaserver" {
   ami = "ami-0c1a7f89451184c8b" #this ami is specific to mumbai region
   instance_type = "t2.micro"
   tags = {
-     Name = "india-server"
+     Name = "india-server-new"
    }
 }
 
