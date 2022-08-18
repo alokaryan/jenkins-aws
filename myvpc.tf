@@ -1,7 +1,3 @@
-provider "aws" {
-	region = "ap-south-1"
-}
-
 #variables 
 
 variable "vpc_cidr" {
